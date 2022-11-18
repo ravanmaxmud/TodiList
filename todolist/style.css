@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box .cart{
+    border: 2px solid black;
+    padding: 15px;
+    width: 30%;
+    height: 500px;
+    overflow: scroll;
+    margin-top: 30px;    
+}
+.box .todo{
+   text-align: center;
+}
+.box .prog{
+    text-align: center;
+ }
+ .box .done{
+    text-align: center;
+ }
+.box .todo h3{
+    color: red;
+    border-bottom: 1px solid red;
+}
+.box .prog h3{
+    color: orange;
+    border-bottom: 1px solid orange;
+}
+.box .done h3{
+    color: green;
+    border-bottom: 1px solid green; 
+}
+
+/* .todo .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212529;
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 5px 15px;
+
+}
+.todo .content h4{
+    color: white;
+} */
+
+/* .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+}
+.nav i{
+    font-size: 25px;
+}
+#side{
+    position: fixed;
+    background-color: darkgrey;
+    width: 0%;
+    height: 80%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+.active{
+    opacity: 1 !important;
+    visibility:  visible !important;
+    width: 20% !important;
+}
+#side a{
+    text-decoration: none;
+    color:#212529;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 25px 0px;
+
+
+}
+#x{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+font-size: 30px;
+
+} */
+/* #first{
+    width: 80%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.images{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    width: 30%;
+} */
+
+/*Drag area css */
+
+/* #Dragarea{
+    width: 80%;
+    height: 200px;
+    border: 3px solid red;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+}
+#Dragarea .box{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+
+}
+#Dragdown .box{
+    width: 20%;
+    height: 100px;
+    background-color: black;
+
+}
+
+#Dragdown{
+    width: 80%;
+    height: 200px;
+    border: 3px solid red;
+    margin: 50px auto 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+}
+ */
